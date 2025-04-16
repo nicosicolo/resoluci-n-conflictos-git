@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "conflictos-git:lib"
+
+    - path: "./test"
+      component: "conflictos-git:test:conflictos-git-test"
