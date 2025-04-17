@@ -13,4 +13,5 @@ precioTotalFactura :: Number -> Number -> Number
 precioTotalFactura fechaPago totalOriginal =
         totalOriginal * if facturaVencida fechaPago then 1.1 else 1
 
+inflacion = 3.3
 
