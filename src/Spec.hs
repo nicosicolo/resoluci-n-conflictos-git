@@ -12,7 +12,7 @@ correrTests = hspec $ do
     it "Quiero pagar la factura antes de su vencimiento" $ do
       facturaVencida 11 `shouldBe` False
     it "Quiero pagar la factura después de su vencimiento" $ do
-      facturaVencida 17 `shouldBe` False
+      facturaVencida 17 `shouldBe` True
 
 
 
