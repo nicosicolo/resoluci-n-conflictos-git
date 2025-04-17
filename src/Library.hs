@@ -15,3 +15,6 @@ precioTotalFactura fechaPago totalOriginal =
 
 inflacion = 3.3
 
+siguiente :: Number -> Number
+siguiente = (+1)
+
